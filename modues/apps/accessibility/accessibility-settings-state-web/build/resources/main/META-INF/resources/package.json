@@ -1,0 +1,5 @@
+{
+	"main": "index.js",
+	"name": "@liferay/accessibility-settings-state-web",
+	"version": "1.0.13"
+}

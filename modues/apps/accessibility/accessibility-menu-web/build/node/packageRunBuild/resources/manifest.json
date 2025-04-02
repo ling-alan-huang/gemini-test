@@ -1,0 +1,25 @@
+{
+	"packages": {
+		"/": {
+			"dest": {
+				"dir": ".",
+				"id": "/",
+				"name": "@liferay/accessibility-menu-web",
+				"version": "1.0.27"
+			},
+			"modules": {
+				"index.js": {
+					"flags": {
+						"esModule": true,
+						"useESM": true
+					}
+				}
+			},
+			"src": {
+				"id": "/",
+				"name": "@liferay/accessibility-menu-web",
+				"version": "1.0.27"
+			}
+		}
+	}
+}

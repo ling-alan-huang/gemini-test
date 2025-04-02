@@ -1,0 +1,25 @@
+{
+	"packages": {
+		"/": {
+			"dest": {
+				"dir": ".",
+				"id": "/",
+				"name": "@liferay/accessibility-settings-state-web",
+				"version": "1.0.13"
+			},
+			"modules": {
+				"index.js": {
+					"flags": {
+						"esModule": true,
+						"useESM": true
+					}
+				}
+			},
+			"src": {
+				"id": "/",
+				"name": "@liferay/accessibility-settings-state-web",
+				"version": "1.0.13"
+			}
+		}
+	}
+}

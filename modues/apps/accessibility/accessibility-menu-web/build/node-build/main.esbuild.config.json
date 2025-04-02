@@ -1,0 +1,43 @@
+{
+	"bundle": true,
+	"entryPoints": [
+		{
+			"in": "/Users/alan/liferay_code/master/liferay-portal/modules/apps/accessibility/accessibility-menu-web/src/main/resources/META-INF/resources/js/index.ts",
+			"out": "index"
+		}
+	],
+	"format": "esm",
+	"loader": {
+		".js": "jsx",
+		".png": "empty",
+		".scss": "css"
+	},
+	"outdir": "build/node/packageRunBuild/resources/__liferay__",
+	"plugins": [
+		{
+			"name": "css-loader-plugin"
+		},
+		{
+			"name": "exact-alias-plugin"
+		},
+		{
+			"name": "externals-plugin"
+		},
+		{
+			"name": "import-bridges-plugin"
+		},
+		{
+			"name": "liferay-language-get-loader-plugin"
+		},
+		{
+			"name": "runtime-linker-plugin"
+		},
+		{
+			"name": "scss-loader-plugin"
+		}
+	],
+	"sourcemap": true,
+	"target": [
+		"es2022"
+	]
+}
