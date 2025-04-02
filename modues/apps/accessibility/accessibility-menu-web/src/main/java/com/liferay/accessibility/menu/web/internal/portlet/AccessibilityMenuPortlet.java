@@ -35,4 +35,7 @@ import org.osgi.service.component.annotations.Component;
 	service = Portlet.class
 )
 public class AccessibilityMenuPortlet extends MVCPortlet {
+
+	private String myFreemarker;
+
 }
